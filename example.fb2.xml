@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script>
+  console.log(window)
+  window.addEventListener("load", function(event) {
+    console.log("All resources finished loading!");
+  });
+</script>
+</head>
+<body>X</body>
+</html>

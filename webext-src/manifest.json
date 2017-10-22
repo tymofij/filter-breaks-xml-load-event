@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "XML Load event breaker",
+  "version": "0.1",
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "*://*/*.fb2*"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}
